@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy' ;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+
+.page1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    background-color: #080708;
+}
+
+.box{
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    border : 2px solid  white;
+}
+
+.discount{
+    width: 100%;
+    height: 80%;
+    background-color: #1D1D1D;   
+
+}
+
+.img{
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img img{
+    margin-top: 20px;
+    width: 60%;
+    height: 50%;
+}
+
+.rate {
+    width: 100%;
+}
+
+.page2{
+        width: 100%;
+        height: 90%;
+        background-color: #080708;
+        display: flex;
+        justify-content: center;
+
+}
+
+.form{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+
+     
+}
+
+.box2{
+    width: 70%;
+    background-color: rgba(250, 235, 215, 0.705);
+    border-radius: 30px;
+}
+
+.box2 h1{
+    text-align: center;
+
+}
+
+
+.name{
+    margin-top: 110px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: start;
+    gap: 60px;
+    align-items: center;
+}
+
+input{
+    height: 40px;
+    border: 1px solid black;
+}
+
+.email{
+    margin-top: 60px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: start;
+    gap: 98px;
+    align-items: center;
+}
+
+.email input{
+    width: 60%;
+    padding-left: 20px;
+
+}
+
+.Num{
+    margin-top: 60px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: start;
+    gap: 88px;
+    align-items: center;
+}
+
+.Num input{
+    
+    padding-left: 60px;
+
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.button > button{
+    background-color: #1d1d1d;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+
+.end{
+    width: 100%;
+    height: 20%;
+    background-color: #080708;
+    
+}
